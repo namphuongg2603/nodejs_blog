@@ -1,0 +1,36 @@
+<div class='mt-4'>
+  <h3>Thêm phim</h3>
+
+  <form method='POST' action='/movies/store'>
+
+    <div class='text-box'>
+      <label for='name'>Tên phim</label>
+      <input type='text' class='form-control' id='name' name='name' />
+    </div>
+
+    <div class='text-box'>
+      <label for='desciption'>Mô tả</label>
+      <input
+        type='text'
+        class='form-control'
+        id='desciption'
+        name='desciption'
+      />
+    </div>
+
+    <div class='text-box'>
+      <label for='videoID'>video ID</label>
+      <input type='text' class='form-control' id='videoID' name='videoID' />
+    </div>
+
+    <div class='text-box'>
+      <label for='status'>Trạng thái</label>
+      <input type='text' class='form-control' id='status' name='status' />
+    </div>
+
+    <div class='col-12'>
+      <button class='btn btn-primary' type='submit'>Thêm</button>
+    </div>
+
+  </form>
+</div>
